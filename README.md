@@ -27,43 +27,51 @@ janesee.online
         .content {
             flex: 1;
             padding: 40px;
-        }
-        a {
-            text-decoration: none;
-            color: #333;
-        }
-        a:hover {
-            color: #a52a2a;
-        }
-        .chapter-nav {
-            margin-top: 20px;
-        }
-    </style>
+        }<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>珍視之主 by 百九</title>
+  <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-<div class="container">
-    <div class="sidebar">
-        <h2>目錄</h2>
-        <h3>佛國紀元</h3>
+  <header>
+      <div class="container">
+          <img src="assets/logo.png" alt="百九 Logo" class="logo">
+          <h1>珍視之主</h1>
+          <h2>－由百九創作</h2>
+      </div>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="index.html">首頁</a></li>
+      <li><a href="about.html">關於</a></li>
+      <li><a href="novels/fugou.html">佛國紀元</a></li>
+      <li><a href="novels/chunyang.html">純陽之旅</a></li>
+      <li><a href="contact.html">聯絡我</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section class="latest-chapters">
+      <h2>最新章節</h2>
+      <div id="latest-chapters-list">
         <ul>
-            <li><a href="#chapter1">第一章 心塔之聲</a></li>
-            <li><a href="#chapter2">第二章 夢火與風音</a></li>
+          <li><a href="novels/fugou/01.html">佛國紀元 - 第一章：初生</a></li>
+          <li><a href="novels/chunyang/01.html">純陽之旅 - 第一章：啟程</a></li>
         </ul>
-        <h3>純陽之旅</h3>
-        <ul>
-            <li><a href="#chapter3">不眠者</a></li>
-        </ul>
-    </div>
-    <div class="content">
-        <h1>珍視之主 | 故事正在發生</h1>
-        <h2 id="chapter1">第一章 心塔之聲</h2>
-        <p>關於解脫，沒人比僧團的僧侶更清楚這其中的奧妙。但對於「解脫」太窄、太膚淺的理解，他們卻有不少辯論。</p>
-
-        <div class="chapter-nav">
-            <a href="#">上一章</a> | <a href="#chapter2">下一章</a>
-        </div>
-    </div>
-</div>
+      </div>
+    </section>
+    <section class="motto">
+      <blockquote>
+        「聽說龍都會噴火，我目前先會跌倒。」
+      </blockquote>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 百九. All Rights Reserved.</p>
+  </footer>
+  <script src="assets/main.js"></script>
 </body>
 </html>
-g index.html…]()
+
